@@ -7,6 +7,7 @@ A next-generation product customization web application inspired by Apple, Tesla
 ## ✨ Features
 
 ### 🎨 **Core Customization**
+
 - **Product Selection**: MacBook Pro M3, Tesla Model Y, Nike Air Max 270
 - **Color Customization**: Multiple color options with live preview
 - **Configuration Options**: Storage, variants, and specifications
@@ -14,6 +15,7 @@ A next-generation product customization web application inspired by Apple, Tesla
 - **Financing Options**: Multiple payment and financing plans
 
 ### 🚀 **Advanced Features**
+
 - **Product Comparison**: Side-by-side comparison of up to 3 products
 - **Wishlist Management**: Save and organize favorite configurations
 - **Interactive Product Tours**: Guided walkthrough of features
@@ -22,6 +24,7 @@ A next-generation product customization web application inspired by Apple, Tesla
 - **Product Reviews**: User reviews and ratings system
 
 ### 🎯 **User Experience**
+
 - **Responsive Design**: Mobile-first approach with adaptive layouts
 - **Smooth Animations**: Framer Motion powered micro-interactions
 - **Performance Optimized**: Lazy loading, image optimization, and efficient rendering
@@ -31,6 +34,7 @@ A next-generation product customization web application inspired by Apple, Tesla
 ## 🛠️ Tech Stack
 
 ### **Frontend**
+
 - **React 18** with Hooks and Context API
 - **TypeScript** for type safety and better development experience
 - **TailwindCSS** for utility-first styling
@@ -38,12 +42,14 @@ A next-generation product customization web application inspired by Apple, Tesla
 - **React Router DOM** for client-side routing
 
 ### **Design System**
+
 - **Glassmorphic UI** with backdrop blur effects
 - **Modern Color Palette**: Clean whites, sophisticated grays, and accent colors
 - **Typography**: Inter and Poppins font families
 - **Micro-interactions**: Hover effects, scale animations, and smooth transitions
 
 ### **Performance**
+
 - **Optimized Images**: Lazy loading with Intersection Observer
 - **Code Splitting**: Dynamic imports for better bundle management
 - **Memoization**: React.memo and useMemo for performance optimization
@@ -52,23 +58,27 @@ A next-generation product customization web application inspired by Apple, Tesla
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js 16+ and npm
 - Modern web browser with ES6+ support
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/jagan-yetukrui/sales-web.git
    cd sales-web
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm start
    ```
@@ -114,18 +124,21 @@ src/
 ## 🎨 Design Philosophy
 
 ### **Apple-Inspired Minimalism**
+
 - Clean, uncluttered interfaces
 - Focus on content and functionality
 - Subtle animations and transitions
 - High-quality typography and spacing
 
 ### **Tesla-Inspired Innovation**
+
 - Futuristic design elements
 - Smooth, fluid interactions
 - Modern color schemes
 - Advanced feature integration
 
 ### **Nike-Inspired Energy**
+
 - Dynamic animations
 - Bold, confident design choices
 - Engaging user interactions
@@ -134,6 +147,7 @@ src/
 ## 🔧 Configuration
 
 ### **Product Data**
+
 Products are configured in `src/data/products.ts` with the following structure:
 
 ```typescript
@@ -141,7 +155,7 @@ interface Product {
   id: string;
   name: string;
   brand: string;
-  category: 'laptop' | 'vehicle' | 'wearable';
+  category: "laptop" | "vehicle" | "wearable";
   basePrice: number;
   colors: ProductColor[];
   addons: ProductAddon[];
@@ -150,6 +164,7 @@ interface Product {
 ```
 
 ### **Styling**
+
 The design system is built with TailwindCSS and custom CSS utilities:
 
 - **Colors**: Primary blues, accent purples, neutral grays
@@ -160,17 +175,20 @@ The design system is built with TailwindCSS and custom CSS utilities:
 ## 🚀 Deployment
 
 ### **Build for Production**
+
 ```bash
 npm run build
 ```
 
 ### **Deploy to Vercel**
+
 ```bash
 npm install -g vercel
 vercel --prod
 ```
 
 ### **Deploy to Netlify**
+
 ```bash
 npm run build
 # Upload the 'build' folder to Netlify
@@ -199,7 +217,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Jagan Yetukuri**
+**Ramarao**
+
 - GitHub: [@jagan-yetukrui](https://github.com/jagan-yetukrui)
 - Repository: [sales-web](https://github.com/jagan-yetukrui/sales-web)
 
